@@ -33,6 +33,7 @@ $config = [
 		'db' => $db,
 	],
     'modules' => [
+        'admin' => 'app\modules\admin\Module',
         'blog' => 'app\modules\blog\Module',
     ],
 	'params' => $params,
